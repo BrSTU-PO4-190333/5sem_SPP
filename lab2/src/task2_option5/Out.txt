@@ -1,0 +1,19 @@
+cd src; javac com/example/Main.java
+mv src/com/example/Main.class bin/com/example/
+cd bin; java com/example/Main
+Write command:
+cp ../lorem100.html.txt ../lorem100.html.txt -fi
+[!] Begin case cp path1 path2 -args
+[!] End case cp
+[!] Begin case i
+Overwrite the file [Y/n]: y
+path2 = ../lorem100.html.txt
+Overwrite the file [Y/n]: y
+path2 = ../lorem100.html.txt
+Overwrite the file [Y/n]: y
+path2 = ../file2.txt
+[!] End case i
+[!] Begin case f
+file2.txt not deleted
+[!] End case f
+End CopyFile
