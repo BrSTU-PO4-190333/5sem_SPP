@@ -1,0 +1,6 @@
+         Figure + draw()
+      /        |          \
+   /           |           \
+Circle      Triangle    Rectangle
+                            |
+                          Square

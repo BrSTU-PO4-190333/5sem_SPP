@@ -1,0 +1,45 @@
+Hello, World!
+
+com.example.Circle@182decdb
+{
+    "point": {
+        "Point": "0",
+        "Point": "0",
+    },
+    "rad": "10",
+}
+
+com.example.Triangle@567d299b
+{
+    "point": {
+        "Point": "0",
+        "Point": "0",
+    },
+    "point2": {
+        "x": "10",
+        "y": "10",
+    },
+    "point3": {
+        "x": "10",
+        "y": "0",
+    },
+}
+
+com.example.Rectangle@2eafffde
+{
+    "point": {
+        "Point": "100",
+        "Point": "-50",
+    },
+    "width": "200",
+    "height": "100",
+}
+
+com.example.Square@59690aa4
+{
+    "point": {
+        "Point": "-20",
+        "Point": "70",
+    },
+    "width": "50",
+}
