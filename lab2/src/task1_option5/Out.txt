@@ -1,0 +1,18 @@
+cd src; javac com/example/Main.java
+mv src/com/example/Main.class bin/com/example/
+cd bin; java com/example/Main
+Enter the path:
+../lorem100.html.txt
+|      Letters in the word |   Word count |
+|                        2 |            5 |
+|                        3 |            6 |
+|                        4 |           20 |
+|                        5 |           15 |
+|                        6 |           12 |
+|                        7 |            9 |
+|                        8 |            9 |
+|                        9 |            8 |
+|                       10 |           11 |
+|                       11 |            3 |
+|                       12 |            1 |
+|                       14 |            1 |
