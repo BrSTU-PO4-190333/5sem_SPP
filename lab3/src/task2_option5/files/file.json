@@ -1,0 +1,36 @@
+[
+    {
+        "type": "file",
+        "name": "index",
+        "size": 25,
+        "extension": "php",
+        "files": null
+    },
+    {
+        "type": "file",
+        "name": "form",
+        "size": 25,
+        "extension": "html",
+        "files": null
+    },
+    {
+        "type": "folder",
+        "name": "assets",
+        "size": 0,
+        "extension": null,
+        "files": [
+            {
+                "type": "file",
+                "name": "styles",
+                "size": 25,
+                "extension": "css"
+            },
+            {
+                "type": "file",
+                "name": "main",
+                "size": 25,
+                "extension": "js"
+            }
+        ]
+    }
+]

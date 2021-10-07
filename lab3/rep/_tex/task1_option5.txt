@@ -1,0 +1,28 @@
+Adding items (1,1,3) to a set #1
+{1; 3}
+
+Adding items (3,2,3) to a set #2
+{2; 3}
+
+Union of sets (set #1, set #2)
+{1; 2; 3}
+
+Is there a number in the set (5, 1)
+false
+true
+{1; 2; 3}
+
+Removing an element (4, 2, 1) from a set (set #1)
+{3}
+
+Adding an item (-5) to a set (set #1) and removing an element (3) into a set (set #1)
+{-5}
+
+Creating a set (set #3) with a size (10) and array (-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11)
+{-3; -2; -1; 0; 1; 2; 3; 4; 5; 6}
+
+Comparison of sets
+inPower(10, {1,2,3}).equals( inPower(10, {1,2,3}) ) : true
+inPower(10, {1,2,3}).equals( inPower(10, {3,2,1}) ) : true
+inPower(10, {1,2,3}).equals( inPower(10, {6,7,8}) ) : false
+inPower(10, {1,2,3}).equals( inPower(9,  {1,2,3}) ) : false

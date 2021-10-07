@@ -1,0 +1,227 @@
+[+] [25/1440] file index.php added
+[+] [50/1440] file form.html added        
+[+] folder assets added
+        [50/1440]
+        /assets/
+[+] file styles.css added to folder assets
+        [75/1440]
+        /assets/styles.css
+[+] file main.js added to folder assets
+        [100/1440]
+        /assets/main.js
+
+JSON print
+[
+  {
+    "type": "file",
+    "size": 25,
+    "name": "index",
+    "extension": "php",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 25,
+    "name": "form",
+    "extension": "html",
+    "files": []
+  },
+  {
+    "type": "folder",
+    "size": 0,
+    "name": "assets",
+    "extension": "",
+    "files": [
+      {
+        "type": "file",
+        "size": 25,
+        "name": "styles",
+        "extension": "css",
+        "files": []
+      },
+      {
+        "type": "file",
+        "size": 25,
+        "name": "main",
+        "extension": "js",
+        "files": []
+      }
+    ]
+  }
+]
+
+[+] folder folder1 added
+        [100/1440]
+        /folder1/
+[+] folder folder2 added
+        [100/1440]
+        /folder2/
+[+] [600/1440] file 1.txt added
+[+] [1100/1440] file 2.txt added
+[!] [1900/1440] file 3.txt not added
+[!] [1900/1440] file 5.txt not added
+[+] [1200/1440] file 6.txt added
+[+] [1300/1440] file 7.txt added
+[+] [1400/1440] file 7.txt added
+[!] [1441/1440] file 8.txt not added
+[+] [1440/1440] file 9.txt added
+
+JSON print
+[
+  {
+    "type": "file",
+    "size": 25,
+    "name": "index",
+    "extension": "php",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 25,
+    "name": "form",
+    "extension": "html",
+    "files": []
+  },
+  {
+    "type": "folder",
+    "size": 0,
+    "name": "assets",
+    "extension": "",
+    "files": [
+      {
+        "type": "file",
+        "size": 25,
+        "name": "styles",
+        "extension": "css",
+        "files": []
+      },
+      {
+        "type": "file",
+        "size": 25,
+        "name": "main",
+        "extension": "js",
+        "files": []
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "size": 0,
+    "name": "folder1",
+    "extension": "",
+    "files": []
+  },
+  {
+    "type": "folder",
+    "size": 0,
+    "name": "folder2",
+    "extension": "",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 500,
+    "name": "1",
+    "extension": "txt",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 500,
+    "name": "2",
+    "extension": "txt",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 100,
+    "name": "6",
+    "extension": "txt",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 100,
+    "name": "7",
+    "extension": "txt",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 100,
+    "name": "7",
+    "extension": "txt",
+    "files": []
+  },
+  {
+    "type": "file",
+    "size": 40,
+    "name": "9",
+    "extension": "txt",
+    "files": []
+  }
+]
+
+[!] File start.bat not deleted, because file is not found
+        [1440/1440]
+        /start.bat
+[!] File styles.css not deleted, because file is not found
+        [1440/1440]
+        /styles.css
+[-] File index.php deleted
+        [1415/1440]
+        /index.php
+[-] File form.html deleted
+        [1390/1440]
+        /form.html
+[!] File main.js not deleted, because file is not found
+        [1390/1440]
+        /main.js
+[-] folder assets deleted
+        [1390/1440]
+        /assets/
+[-] File 1.txt deleted
+        [890/1440]
+        /1.txt
+[!] File 3.txt not deleted, because file is not found
+        [890/1440]
+        /3.txt
+[!] File 5.txt not deleted, because file is not found
+        [890/1440]
+        /5.txt
+[-] File 7.txt deleted
+        [790/1440]
+        /7.txt
+[-] File 9.txt deleted
+        [750/1440]
+        /9.txt
+[!] File 8.txt not deleted, because file is not found
+        [750/1440]
+        /8.txt
+[-] File 6.txt deleted
+        [650/1440]
+        /6.txt
+[!] File 4.txt not deleted, because file is not found
+        [650/1440]
+        /4.txt
+[-] File 2.txt deleted
+        [150/1440]
+        /2.txt
+[-] folder folder2 deleted
+        [150/1440]
+        /folder2/
+[!] folder someDirectory not deleted, because folder not found
+        [150/1440]
+        /someDirectory/
+[!] folder assets not deleted, because folder not found
+        [150/1440]
+        /assets/
+[-] folder folder1 deleted
+        [150/1440]
+        /folder1/
+[-] File 7.txt deleted
+        [50/1440]
+        /7.txt
+
+JSON print
+[]
