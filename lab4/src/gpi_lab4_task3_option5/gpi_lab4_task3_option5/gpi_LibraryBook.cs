@@ -38,7 +38,7 @@ partial class gpi_LibraryReader
 		int gpi_length = this.gpi_books.Count;
 
 		if (gpi_length == 0)
-        {
+		{
 			Console.WriteLine(" Нет данных");
 			gpi_pressAnyKey();
 			return;

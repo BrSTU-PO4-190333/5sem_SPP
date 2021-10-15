@@ -21,7 +21,7 @@ partial class gpi_LibraryReader
 			{
 				case "Escape": return;
 				case "D1": gpi_printBookMenu(); break;
-				case "D2": gpi_printReaderMenu();  break;
+				case "D2": gpi_printReaderMenu(); break;
 				default: break;
 			}
 		}
@@ -38,7 +38,7 @@ partial class gpi_LibraryReader
 			Console.WriteLine(" 1. Добавить книгу");
 			Console.WriteLine(" 2. Печать таблицы книг");
 			Console.WriteLine(" 3. Удалить книгу");
-            Console.WriteLine(" 4. Редактировать имя книги");
+			Console.WriteLine(" 4. Редактировать имя книги");
 			Console.WriteLine(" Q. Вернуться в главное меню");
 
 			ConsoleKeyInfo gpi_key = Console.ReadKey();
@@ -66,8 +66,8 @@ partial class gpi_LibraryReader
 			Console.WriteLine(" 1. Добавить читателя");
 			Console.WriteLine(" 2. Печать таблицы читателей");
 			Console.WriteLine(" 3. Удалить читателя");
-            Console.WriteLine(" 4. Редактировать имя читателя");
-            Console.WriteLine(" Q. Вернуться в главное меню");
+			Console.WriteLine(" 4. Редактировать имя читателя");
+			Console.WriteLine(" Q. Вернуться в главное меню");
 
 			ConsoleKeyInfo gpi_key = Console.ReadKey();
 			string gpi_strKey = Convert.ToString(gpi_key.Key);
@@ -76,8 +76,8 @@ partial class gpi_LibraryReader
 				case "D1": gpi_addReader(); break;
 				case "D2": gpi_printReaderTable(); break;
 				case "D3": gpi_deleteReader(); break;
-                case "D4": gpi_editReaderName(); break;
-                case "Q": case "q": return;
+				case "D4": gpi_editReaderName(); break;
+				case "Q": case "q": return;
 				default: break;
 			}
 		}

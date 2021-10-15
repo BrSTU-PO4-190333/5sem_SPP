@@ -37,11 +37,11 @@ partial class gpi_LibraryReader
 
 		int gpi_length = this.gpi_readers.Count;
 		if (gpi_length == 0)
-        {
+		{
 			Console.WriteLine(" Нет данных");
 			gpi_pressAnyKey();
 			return;
-        }
+		}
 
 		int gpi_i = 0;
 		Console.WriteLine(" | {0,-8:s} | {1, -14:s} | {2,-48:s} |",
