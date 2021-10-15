@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 partial class gpi_LibraryReader
 {
