@@ -17,6 +17,54 @@ partial class gpi_LibraryReader
 		}
 	}
 
+	public void gpi_editBlackBook()
+    {
+		Console.Clear();
+		print_author("Галанин П. И.", "=gpi_editBlackBook=");
+
+		int gpi_length = this.gpi_readers.Count;
+		if (gpi_length == 0)
+        {
+			Console.WriteLine(" Нет элементов для изменения");
+			gpi_pressAnyKey();
+			return;
+        }
+
+		try
+		{
+			Console.Write(" gpi_id ");
+			int gpi_id = Convert.ToInt32(Console.ReadLine());
+			while (gpi_id < 0 || gpi_id >= gpi_length)
+			{
+				Console.Write(" gpi_id ");
+				gpi_id = Convert.ToInt32(Console.ReadLine());
+			}
+
+			Console.Write(" gpi_blackBook ");
+			string gpi_blackBook = Console.ReadLine();
+			if (gpi_blackBook == "true")
+            {
+				this.gpi_readers[gpi_id].gpi_blackBook = true;
+			}
+			else
+            {
+				this.gpi_readers[gpi_id].gpi_blackBook = false;
+			}
+			
+			Console.WriteLine(" Статус читателя изменён успешно");
+			gpi_pressAnyKey();
+		}
+		catch (System.FormatException)
+		{
+			gpi_editBlackBook();
+		}
+		catch (System.ArgumentOutOfRangeException)
+		{
+			Console.WriteLine(" Нет такого элемента под таким gpi_id");
+			gpi_pressAnyKey();
+		}
+	}
+
 	public void gpi_addReader()
 	{
 		Console.Clear();

@@ -67,6 +67,7 @@ partial class gpi_LibraryReader
 			Console.WriteLine(" 2. Печать таблицы читателей");
 			Console.WriteLine(" 3. Удалить читателя");
 			Console.WriteLine(" 4. Редактировать имя читателя");
+			Console.WriteLine(" 5. Редактировать статус читателя");
 			Console.WriteLine(" Q. Вернуться в главное меню");
 
 			ConsoleKeyInfo gpi_key = Console.ReadKey();
@@ -77,6 +78,7 @@ partial class gpi_LibraryReader
 				case "D2": gpi_printReaderTable(); break;
 				case "D3": gpi_deleteReader(); break;
 				case "D4": gpi_editReaderName(); break;
+				case "D5": gpi_editBlackBook(); break;
 				case "Q": case "q": return;
 				default: break;
 			}
