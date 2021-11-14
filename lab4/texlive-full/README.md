@@ -1,28 +1,22 @@
 ## Make PDF
 
-Build a project:
+```bash
+docker-compose run latex /bin/bash
+cd /home/user/content/texlive-full/
+make gpi-build-rep
+exit
+docker-compose down
+```
+
+or
 
 ```bash
 docker-compose up
-```
-
-Result:
-- `_build/main.pdf`
-
-Rebuild the project:
-
-```bash
-docker-compose up
-```
-
-At the end of the work:
-
-```bash
 docker-compose down
 ```
 
 ## Cleaning the project
 
 ```bash
-make clean
+make gpi-clean
 ```
