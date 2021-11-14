@@ -12,7 +12,7 @@ package com.example;
 
 public class Main {
 	public static void main(String[] args) {
-		System.out.println("Galanin P. I.     =gpi_lab4_task2_option5=");
+		System.out.printf("%-32s %32s \n", "=Галанин П. И.=", "=gpi_spp5_lab4_task2_option5=");
 		gpi_Paragraph obj = new gpi_Paragraph();
 		obj.gpi_main();
 	}

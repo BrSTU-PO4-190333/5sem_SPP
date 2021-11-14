@@ -1,0 +1,34 @@
+ =Галанин П. И.=                     =gpi_spp5_lab4_task2_option5= 
+ [
+	 {
+		 "gpi_w": "Lorem" 
+	 },
+	 {
+		 "gpi_w": "ipsum" 
+	 },
+	 {
+		 "gpi_w": "dolor" 
+	 },
+	 {
+		 "gpi_w": "sit" 
+	 },
+	 {
+		 "gpi_w": "amet," 
+	 },
+	 {
+		 "gpi_w": "consectetur" 
+	 },
+	 {
+		 "gpi_w": "adipisicing" 
+	 },
+	 {
+		 "gpi_w": "elit." 
+	 },
+	 {
+		 "gpi_w": "Laudantium," 
+	 },
+	 {
+		 "gpi_w": "voluptatibus!" 
+	 }
+ ]
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, voluptatibus! 
