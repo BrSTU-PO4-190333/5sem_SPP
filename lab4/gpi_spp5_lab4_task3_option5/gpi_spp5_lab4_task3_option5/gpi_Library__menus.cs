@@ -1,6 +1,6 @@
 using System;
 
-partial class gpi_LibraryReader
+partial class gpi_Library
 {
 	public void gpi_main()
 	{

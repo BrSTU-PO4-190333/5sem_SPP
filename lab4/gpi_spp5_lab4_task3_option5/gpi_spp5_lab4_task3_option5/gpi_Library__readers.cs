@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-partial class gpi_LibraryReader
+partial class gpi_Library
 {
 	public List<gpi_Reader> gpi_readers = new List<gpi_Reader>();
 
