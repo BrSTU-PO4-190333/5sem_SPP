@@ -1,0 +1,25 @@
+ =Галанин П. И.=                     =gpi_spp5_lab4_task1_option5= 
+
+ [
+
+ ]
+
+
+ [
+	 {
+		 "gpi_n": "Natalia", 
+		 "gpi_p": "repairer", 
+	 },
+	 {
+		 "gpi_n": "Vera", 
+		 "gpi_p": "packer", 
+	 },
+	 {
+		 "gpi_n": "Olga", 
+		 "gpi_p": "controller", 
+	 },
+	 {
+		 "gpi_n": "Igor", 
+		 "gpi_p": "brigadier", 
+	 }
+ ]
