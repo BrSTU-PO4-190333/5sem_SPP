@@ -1,0 +1,100 @@
+Цель работы:
+приобрести практические навыки в области объектно-ориентированного проектирования.
+
+% = = = = =
+
+\paragraph{Задание 1} \hspace{0cm}
+
+Реализовать абстрактные классы или интерфейсы,
+а также наследование и полиморфизм для следующих классов:
+
+\textbf{Вариант 5}.
+interface Здание <--- abstract class Общественное Здание <--- class Театр.
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task1_option5/src/com/example/Main.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task1_option5/src/com/example/Building.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task1_option5/src/com/example/PublicBuilding.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task1_option5/src/com/example/Theatre.java}
+
+% = = = = =
+
+\paragraph{Задание 2} \hspace{0cm}
+
+В следующих заданиях требуется создать суперкласс (абстрактный класс, интерфейс)
+и определить общие методы для данного класса.
+Создать подклассы, в которых добавить специфические свойства и методы.
+Часть методов переопределить.
+Создать массив объектов суперкласса и заполнить объектами подклассов.
+Объекты подклассов идентифицировать конструктором по имени или идентификационному номеру.
+Использовать объекты подклассов для моделирования реальных ситуаций и объектов.
+
+\textbf{Вариант 5}.
+Создать абстрактный класс Работник фирмы и подклассы Менеджер,
+Аналитик, Программист, Тестировщик, Дизайнер, Бухгалтер.
+Реализовать логику начисления зарплаты.
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Main.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Employee.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Manager.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Analyst.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Programmer.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Tester.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Designer.java}
+
+\lstinputlisting[language=java]
+{../gpi_spp5_lab5_task2_option5/src/com/example/Accountant.java}
+
+% = = = = =
+
+\paragraph{Задание 3} \hspace{0cm}
+
+В задании 3 ЛР №4, где возможно,
+заменить объявления суперклассов объявлениями абстрактных классов или интерфейсов.
+
+\textbf{Вариант 5}.
+Система \textbf{Библиотека}. \textbf{Читатель} оформляет \textbf{Заказ} на \textbf{Книгу}.
+Система осуществляет поиск в \textbf{Каталоге}.
+\textbf{Библиотекарь} выдает \textbf{Читателю Книгу} на абонемент или в читальный зал.
+При невозвращении \textbf{Книги Читателем}
+он может быть занесен \textbf{Администратором} в <<черный список>>.
+
+\lstinputlisting[language=csh, name=gpi_spp5_lab5_task3_option5/Program.cs,]
+{../gpi_spp5_lab5_task3_option5/gpi_spp5_lab5_task3_option5/Program.cs}
+
+\newpage
+
+\lstinputlisting[language=csh, name=gpi_spp5_lab5_task3_option5/gpi_AbstractLibrary.cs,]
+{../gpi_spp5_lab5_task3_option5/gpi_spp5_lab5_task3_option5/gpi_AbstractLibrary.cs}
+
+\newpage
+
+\lstinputlisting[language=csh, name=gpi_spp5_lab5_task3_option5/gpi_Library__menus.cs,]
+{../gpi_spp5_lab5_task3_option5/gpi_spp5_lab5_task3_option5/gpi_Library__menus.cs}
+
+\lstinputlisting[language=csh, name=gpi_spp5_lab5_task3_option5/gpi_Library__books.cs,]
+{../gpi_spp5_lab5_task3_option5/gpi_spp5_lab5_task3_option5/gpi_Library__books.cs}
+
+\newpage
+
+\lstinputlisting[language=csh, name=gpi_spp5_lab5_task3_option5/gpi_Library__reader.cs,]
+{../gpi_spp5_lab5_task3_option5/gpi_spp5_lab5_task3_option5/gpi_Library__reader.cs}
