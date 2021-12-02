@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31702.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpi_lab4_task3_option5", "gpi_lab4_task3_option5\gpi_lab4_task3_option5.csproj", "{D48AD3DD-D301-41C6-8F14-3B5E47F728BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gpi_spp5_lab4_task3_option5", "gpi_spp5_lab4_task3_option5\gpi_spp5_lab4_task3_option5.csproj", "{D48AD3DD-D301-41C6-8F14-3B5E47F728BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

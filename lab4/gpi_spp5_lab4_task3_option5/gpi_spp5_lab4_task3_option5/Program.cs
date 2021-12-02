@@ -13,7 +13,7 @@
 При невозвращении Книги Читателем он может быть занесен Администратором в <<черный список>>. 
 */
 
-namespace gpi_lab4_task3_option5_csharp
+namespace gpi_spp5_lab4_task3_option5_csharp
 {
     class Program
     {
