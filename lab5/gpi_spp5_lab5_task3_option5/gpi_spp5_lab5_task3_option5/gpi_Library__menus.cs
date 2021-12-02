@@ -1,8 +1,8 @@
 using System;
 
-partial class gpi_LibraryReader
+partial class gpi_Library
 {
-	public void gpi_main()
+	public override void gpi_main()
 	{
 		System.Console.OutputEncoding = System.Text.Encoding.UTF8;
 		while (true)
@@ -27,7 +27,7 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_printBookMenu()
+	public override void gpi_printBookMenu()
 	{
 		while (true)
 		{
@@ -55,7 +55,7 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_printReaderMenu()
+	public override void gpi_printReaderMenu()
 	{
 		while (true)
 		{
@@ -85,13 +85,13 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_pressAnyKey()
+	public override void gpi_pressAnyKey()
 	{
 		Console.WriteLine(" \n Press any key");
 		ConsoleKeyInfo gpi_key = Console.ReadKey();
 	}
 
-	public void print_author(string gpi_n1, string gpi_n2)
+	public override void print_author(string gpi_n1, string gpi_n2)
 	{
 		Console.WriteLine("\n {0,-16:s} {1:s} \n", gpi_n1, gpi_n2);
 	}

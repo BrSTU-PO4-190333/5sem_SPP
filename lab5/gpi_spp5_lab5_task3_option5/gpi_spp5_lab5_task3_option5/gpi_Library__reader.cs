@@ -1,30 +1,6 @@
 using System;
-using System.Collections.Generic;
 
-public abstract class gpi_InterfaceLibaryReader
-{
-	public List<gpi_Reader> gpi_readers = new List<gpi_Reader>();
-
-	public class gpi_Reader
-	{
-		public String gpi_readerName;
-		public Boolean gpi_blackBook;
-
-		public gpi_Reader(string gpi_readerName)
-		{
-			this.gpi_readerName = gpi_readerName;
-			this.gpi_blackBook = false;
-		}
-	}
-
-	public abstract void gpi_editBlackBook();
-	public abstract void gpi_addReader();
-	public abstract void gpi_printReaderTable();
-	public abstract void gpi_deleteReader();
-	public abstract void gpi_editReaderName();
-}
-
-partial class gpi_LibraryReader : gpi_InterfaceLibaryReader
+partial class gpi_Library : gpi_AbstractLibrary
 {
 	public override void gpi_editBlackBook()
     {

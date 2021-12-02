@@ -1,23 +1,8 @@
 using System;
-using System.Collections.Generic;
 
-partial class gpi_LibraryReader
+partial class gpi_Library : gpi_AbstractLibrary
 {
-	public List<gpi_Book> gpi_books = new List<gpi_Book>();
-
-	public class gpi_Book
-	{
-		public String gpi_bookName;
-		public String gpi_readerName;
-
-		public gpi_Book(string gpi_bookName)
-		{
-			this.gpi_bookName = gpi_bookName;
-			this.gpi_readerName = "";
-		}
-	}
-
-	public void gpi_addBook()
+	public override void gpi_addBook()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_addBook=");
@@ -30,7 +15,7 @@ partial class gpi_LibraryReader
 		gpi_pressAnyKey();
 	}
 
-	public void gpi_printBookTable()
+	public override void gpi_printBookTable()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_printBookTable=");
@@ -69,7 +54,7 @@ partial class gpi_LibraryReader
 		gpi_pressAnyKey();
 	}
 
-	public void gpi_deleteBook()
+	public override void gpi_deleteBook()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_deleteBook=");
@@ -102,7 +87,7 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_editBookName()
+	public override void gpi_editBookName()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_editBookName=");

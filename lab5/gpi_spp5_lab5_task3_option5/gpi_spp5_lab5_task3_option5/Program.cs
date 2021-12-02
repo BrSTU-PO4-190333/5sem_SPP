@@ -19,9 +19,8 @@ namespace gpi_spp5_lab5_task3_option5_csharp
     {
         static void Main(string[] args)
         {
-            gpi_LibraryReader obj = new gpi_LibraryReader();
+            gpi_Library obj = new gpi_Library();
             obj.gpi_main();
-
         }
     }
 }
