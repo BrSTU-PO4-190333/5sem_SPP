@@ -5,41 +5,41 @@ import java.awt.Graphics;
 import java.awt.Canvas;
 
 public class GRI_PythagoreanTree extends Canvas {
-	protected static final long serialVersionUID= 1L;	// Переменная сгенерировалась автоматически
-	protected final int 		gpi_limit 		= 0;
-	protected int 				gpi_step 		= 1;	// Шаг фрактала
-	protected int 				gpi_time;				// Время через которое менять
-	protected int 				gpi_wingth;				// Ширина приложения
-	protected int 				gpi_height;				// Высота приложения
-	protected int 				gpi_fractal_size;
+    protected static final long serialVersionUID= 1L;   // Переменная сгенерировалась автоматически
+    protected final int         gpi_limit       = 0;
+    protected int               gpi_step        = 1;    // Шаг фрактала
+    protected int               gpi_time;               // Время через которое менять
+    protected int               gpi_wingth;             // Ширина приложения
+    protected int               gpi_height;             // Высота приложения
+    protected int               gpi_fractal_size;
     
     GRI_PythagoreanTree (int gpi_wingth, int gpi_height, int gpi_fractal_size, int gpi_time) {
-    	this.gpi_wingth = gpi_wingth;
-    	this.gpi_height = gpi_height;
-    	this.gpi_fractal_size = gpi_fractal_size;
-    	this.gpi_time = gpi_time;
+        this.gpi_wingth = gpi_wingth;
+        this.gpi_height = gpi_height;
+        this.gpi_fractal_size = gpi_fractal_size;
+        this.gpi_time = gpi_time;
     }
     
     public void paint (Graphics g)
     {
-    	g.setColor (Color.WHITE);
-		g.fillRect (0, 0, gpi_wingth, gpi_height);
-		
-    	g.setColor (Color.RED);
-    	gpi_drawTree (
-			g,
-			gpi_wingth/2 - gpi_wingth/16,
-			gpi_height - 64,
-			gpi_wingth/2 + gpi_wingth/16,
-			gpi_height - 64,
-			gpi_fractal_size
-    	);
+        g.setColor (Color.WHITE);
+        g.fillRect (0, 0, gpi_wingth, gpi_height);
+        
+        g.setColor (Color.RED);
+        gpi_drawTree (
+            g,
+            gpi_wingth/2 - gpi_wingth/16,
+            gpi_height - 64,
+            gpi_wingth/2 + gpi_wingth/16,
+            gpi_height - 64,
+            gpi_fractal_size
+        );
     }
     
     protected void gpi_drawTree (Graphics g, int x1, int y1, int x2, int y2, int limit)
     {
         if (limit == gpi_limit) {
-        	return;
+            return;
         }
 
         int u1 = x2 - x1;
@@ -65,29 +65,29 @@ public class GRI_PythagoreanTree extends Canvas {
         gpi_drawTree (g, D.x, D.y, E.x, E.y, limit-1);
     }
     
-	public void gpi_run () {
-		gpi_fractal_size = 0;
-		while(true) {
-			if (gpi_fractal_size > 9) {
-				gpi_step = -1;
-			}
-			
-			if (gpi_fractal_size <= 0) {
-				gpi_step = 1;
-			}
-			
-			repaint ();
-			gpi_sleep (gpi_time);
-			
-			gpi_fractal_size += gpi_step;
-		}
-	}
-	
-	protected void gpi_sleep (int time) {
-		try {
-			Thread.sleep (time);
-		} catch (InterruptedException e) {
-			e.printStackTrace ();
-		}
-	}
+    public void gpi_run () {
+        gpi_fractal_size = 0;
+        while(true) {
+            if (gpi_fractal_size > 9) {
+                gpi_step = -1;
+            }
+            
+            if (gpi_fractal_size <= 0) {
+                gpi_step = 1;
+            }
+            
+            repaint ();
+            gpi_sleep (gpi_time);
+            
+            gpi_fractal_size += gpi_step;
+        }
+    }
+    
+    protected void gpi_sleep (int time) {
+        try {
+            Thread.sleep (time);
+        } catch (InterruptedException e) {
+            e.printStackTrace ();
+        }
+    }
 }
