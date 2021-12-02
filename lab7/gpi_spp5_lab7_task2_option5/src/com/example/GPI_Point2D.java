@@ -4,7 +4,7 @@ public class GPI_Point2D {
 	public int x;
 	public int y;
     
-    GPI_Point2D (int x, int y) {
+    public GPI_Point2D (int x, int y) {
     	this.x = x;
     	this.y = y;
     }
