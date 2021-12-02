@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-partial class gpi_LibraryReader
+public abstract class gpi_InterfaceLibaryReader
 {
 	public List<gpi_Reader> gpi_readers = new List<gpi_Reader>();
 
@@ -17,7 +17,16 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_editBlackBook()
+	public abstract void gpi_editBlackBook();
+	public abstract void gpi_addReader();
+	public abstract void gpi_printReaderTable();
+	public abstract void gpi_deleteReader();
+	public abstract void gpi_editReaderName();
+}
+
+partial class gpi_LibraryReader : gpi_InterfaceLibaryReader
+{
+	public override void gpi_editBlackBook()
     {
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_editBlackBook=");
@@ -65,7 +74,7 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_addReader()
+	public override void gpi_addReader()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_addReader=");
@@ -78,7 +87,7 @@ partial class gpi_LibraryReader
 		gpi_pressAnyKey();
 	}
 
-	public void gpi_printReaderTable()
+	public override void gpi_printReaderTable()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_printReaderTable=");
@@ -115,7 +124,7 @@ partial class gpi_LibraryReader
 		gpi_pressAnyKey();
 	}
 
-	public void gpi_deleteReader()
+	public override void gpi_deleteReader()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_deleteReader=");
@@ -148,7 +157,7 @@ partial class gpi_LibraryReader
 		}
 	}
 
-	public void gpi_editReaderName()
+	public override void gpi_editReaderName()
 	{
 		Console.Clear();
 		print_author("Галанин П. И.", "=gpi_editReaderName=");
