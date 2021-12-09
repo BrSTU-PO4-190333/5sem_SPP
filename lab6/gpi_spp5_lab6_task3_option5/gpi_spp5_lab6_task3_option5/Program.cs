@@ -6,7 +6,7 @@ namespace gpi_spp5_lab6_task3_option5
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GPI_ATM_machine obj = new GPI_ATM_machine();
         }
     }
 }
