@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public class GPI_ATM_machine
 {

@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace gpi_spp5_lab6_task3_option5
 {
